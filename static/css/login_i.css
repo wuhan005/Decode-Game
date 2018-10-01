@@ -1,0 +1,45 @@
+
+body{font:normal normal normal 13px/166.6% helvetica,arial,sans-serif;-webkit-text-size-adjust:none}
+body,ul,ol,p{margin:0;padding:0}
+em{font-style:normal}
+a{color:#005590}
+body{background-image:url(/static/img/i5Av4KevjcxoV4ODdvkT/background.png) repeat-x;}
+.mod-logo-i{text-align:center;height:87px;}
+.mod-logo-i img{display:block;margin:auto;padding:12px}
+.mod-login-i{min-height:180px;width:288px;margin:auto}
+.mod-login-i .iptBox{-webkit-box-sizing:border-box;border:1px solid #b5b5b5;border-radius:5px;background:#fff -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#f6f6f6));-webkit-box-shadow:0 2px 3px #A6C1D2;background-color: #FFFFFF;}
+.mod-login-i .iptBox .item{border-bottom:1px solid #e2e2e2;padding:0 14px;height:50px;line-height:50px}
+.mod-login-i .iptBox .item:last-child{border:0}
+.mod-login-i .iptBox .lb{display:inline-block;font-size:16px;width:5em;text-align: right;}
+.mod-login-i .iptBox input,
+.mod-login-i .iptBox select{font-size:14px;width:165px;height:30px;border:0;background:transparent;-webkit-appearance:none;padding:0}
+.mod-login-i .iptBox .item-select{background:url(data:image/gif;base64,R0lGODlhDQAIAMQAAOTk5OLi4uDg4MrKysnJycjIyMfHx8TExMPDw729vby8vLCwsKmpqaSkpKGhoZubm4mJiYiIiP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEHABIALAAAAAANAAgAAAUtoFQoUmlKySAJELSc0tICEtI2JhNFhnm0j4CjRYDZWi0VTPJrFZYmmxJaEixDADs=) 95% 50% no-repeat}
+.mod-login-i .iptBox .domain{color:#999;font-size:14px}
+.mod-login-i .submit{text-align:center;margin:20px}
+.mod-login-i .loginBtn {
+border: 0;
+padding: 0;
+background: 0;
+width: 128px;
+height: 36px;
+font-size: 16px;
+-webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAqCAYAAABhqXGIAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwMS8wNy8xMUth1boAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzQGstOgAAACLUlEQVQ4jYWUX08TQRTFf3d2tlsQG4r8E4P/0Cc/gokPvPtg/JTEr6AhMRI/gPpEQkhMpDUthRQo7e7e68PS2d1ScJN52MmZc869587Il8O+AVxcTTj42aEzuGZ9OeHtm01aSwkAToDB+Yi9/SOurMmLnWdM3CJ7+0d0Ty8QwJkq3391WV1/xMbGCucTWFtrs7m1zsGPLprnuFwzfvcuabdb9C4zJpnSGaa02y1OTkdkeYZXhUlqOOeYpCkARvGJOMap4s2M6pp+4d8MTwWgc0BmhpfphiqmWoJUMTME8OGUFqsElfIeQNVQ6nKKoVoBlUx6B5MQADrrSQ0LcqaolfTFnqGmgP1fLlSnd8jVjavNlbMqqADUmVQ1tMSDBOo6aOpRSiasHgs3FWPgRQgst+TUEAnG75OrGDetVzetOHS82JiRM51pwT2eKnLFKc3rsYTshHIKbk2mVrO7iaQWi1q149Xsqsar2cl0Y84U1Jl0/r2rNtPumIIw44IUEdjMZIb5kvr4zsZSu3f3vgW1Ps3J7lafigekykTokxMRktiRpTmxkyIKA82LLOM4wjkHr7aX6Q+GbK0s0vCOp2sP6A+GPH/cohFHOHGO9+9e0uud86d7xurDBp2/Z/zp9Pmwu4Nzgnw9OrXxaMRJt8enz4ccnwzZ3lji4+5rtp+s0mwuIN+Oz0zznMl4zPX1FVma4WNPkizQSBIi74vqXBTRaDaJYo+pIs4RRb4wDPwDulhjLyjShpEAAAAASUVORK5CYII=) 0 4 0 4 stretch stretch;
+-moz-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAqCAYAAABhqXGIAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwMS8wNy8xMUth1boAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzQGstOgAAACLUlEQVQ4jYWUX08TQRTFf3d2tlsQG4r8E4P/0Cc/gokPvPtg/JTEr6AhMRI/gPpEQkhMpDUthRQo7e7e68PS2d1ScJN52MmZc869587Il8O+AVxcTTj42aEzuGZ9OeHtm01aSwkAToDB+Yi9/SOurMmLnWdM3CJ7+0d0Ty8QwJkq3391WV1/xMbGCucTWFtrs7m1zsGPLprnuFwzfvcuabdb9C4zJpnSGaa02y1OTkdkeYZXhUlqOOeYpCkARvGJOMap4s2M6pp+4d8MTwWgc0BmhpfphiqmWoJUMTME8OGUFqsElfIeQNVQ6nKKoVoBlUx6B5MQADrrSQ0LcqaolfTFnqGmgP1fLlSnd8jVjavNlbMqqADUmVQ1tMSDBOo6aOpRSiasHgs3FWPgRQgst+TUEAnG75OrGDetVzetOHS82JiRM51pwT2eKnLFKc3rsYTshHIKbk2mVrO7iaQWi1q149Xsqsar2cl0Y84U1Jl0/r2rNtPumIIw44IUEdjMZIb5kvr4zsZSu3f3vgW1Ps3J7lafigekykTokxMRktiRpTmxkyIKA82LLOM4wjkHr7aX6Q+GbK0s0vCOp2sP6A+GPH/cohFHOHGO9+9e0uud86d7xurDBp2/Z/zp9Pmwu4Nzgnw9OrXxaMRJt8enz4ccnwzZ3lji4+5rtp+s0mwuIN+Oz0zznMl4zPX1FVma4WNPkizQSBIi74vqXBTRaDaJYo+pIs4RRb4wDPwDulhjLyjShpEAAAAASUVORK5CYII=) 0 4 0 4 stretch stretch;
+border-width: 0 4px;
+font-weight: bold;
+text-shadow: 0 -1px 2px #000;
+color: #fff
+}
+.mod-login-i .reg{text-align:center}
+.mod-footer-i{text-align:center;color:#777777;}
+.mod-footer-i p{margin:5px 0}
+.mod-footer-i strong,
+.mod-footer-i a,
+.mod-footer-i .copy{margin:0 5px}
+.mod-footer-i .copyright{color:#999}
+.mod-login-i .vcImage {
+display: inline-block;
+}
+.mod-login-i .iptBox .itemN{
+padding: 5px 14px;
+}

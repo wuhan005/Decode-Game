@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+/*----------------全局部分 开始-------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input
+{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+table, caption, tbody, tfoot, thead, tr, th, td
+{margin:0;padding:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+body {line-height:1.5;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+input {border:none;}
+ul{list-style:none;}
+label{cursor:pointer;color:#666;}
+
+body {font-size:75%;color:#222;background-image:url(/static/img/i5Av4KevjcxoV4ODdvkT/background.png);font-family:Helvetica, Arial,"宋体", sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-weight:bold;color:#000;}
+h1 {font-size:36px;font-family:"黑体", sans-serif;}
+h2 {font-size:45px;float:left;color:#CCC;margin-top:10px;font-weight:normal;}
+h3 {font-size:16px;margin:8px 0;margin:8px 0 7px\0;color:#000;}
+h4 {font-size:14px;margin:8px 0;color:#666;}
+h5 {font-size:12px;margin:8px 0;color:#666;}
+h6 {font-size:12px;margin:8px 0;}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+p {color:#666;}
+p.gray_title {font-size:14px; font-weight:bold; padding:5px 0;}
+a:focus, a:hover {text-decoration:underline;}
+a {
+color:#666;
+text-decoration:none;
+cursor:pointer;
+blr:expression(this.onFocus=this.blur());/*ie 去除超链接虚线框 */
+outline:none;/*ff 去除超链接虚线框 */
+}
+span{color:#666;}
+span.red {color:red;}
+textarea{overflow:hidden;}
+fieldset {padding:1.4em;margin:0 0 1.5em 0;border:1px solid #ccc;}
+legend {font-weight:bold;font-size:1.2em;}
+input.text, input.title, textarea, select {margin:0 0;border:1px solid #bbb;font-size:12px;color:#666;font-family: Helvetica,Arial,"宋体",sans-serif;}
+input.text:focus, input.title:focus, textarea:focus, select:focus {border:1px solid #666;}
+input.text, input.title {width:300px;padding:5px;}
+input.title {font-size:1.5em;}
+.error, .notice, .success {padding:.8em;margin-bottom:1em;border:2px solid #ddd;}
+.error {background:#FBE3E4;color:#8a1f11;border-color:#FBC2C4;}
+.notice {background:#FFF6BF;color:#514721;border-color:#FFD324;}
+.success {background:#E6EFC2;color:#264409;border-color:#C6D880;}
+.error a {color:#8a1f11;}
+.notice a {color:#514721;}
+.success a {color:#264409;}
+select{width:120px;margin-left:10px;float:left;padding:2px;height:25px;line-height:25px;}
+.select_kind{margin-left: 0;width: 150px;}
+
+.right{float:right !important;}
+.left{float:left !important;}
+.clear{clear:both;}
+.border_bottom{border-bottom:solid 1px #DEDEDE;}
+.border_bottom_dash{border-bottom:dashed 1px #DEDEDE;}
+.border_top{border-top:solid 1px #DEDEDE;}
+.margin_left_none{margin-left:0 !important;}
+.margin_right_none{margin-right:0 !important;}
+.margin_bottom_none{margin-bottom:0 !important;}
+.margin_top_none{margin-top:0 !important;}
+.padding_bottom_none{padding-bottom:0 !important;}
+.noborder{border:none !important;}
+p.pbold{font-weight:bold;}
+p.phead{margin-left:5px;}
+a.highlight, .highlight, .highlight a{font-weight:normal;color:#09C !important;}
+a.highlightheader{color:#09C;font-weight:bold;font-size:14px;}
+a.bluebold, .bluebold{color:#09C;font-weight:bold;}
+a.blue{color:#09C;font-weight:normal;}
+.green{font-weight:normal;color:#390 !important;}
+.greenbold{color:#390;font-weight:bold;} 
+.lightgray{color:#999 !important;}
+.black{color:#000 !important;}
+.blackbold {font-weight:bold;color:#000 !important;}
+.graybold {font-weight:bold;}
+.lightgray *{color:#999;}
+.row {float:left; width:100%;}
+/*----------------全局部分 结束-------------------*/
+/*----------------北外登录页 开始-------------------*/
+body{
+	margin:0 auto;
+	text-align:center;
+	padding:0;
+	}
+.loginpage_wrrap{
+	background:url(/static/img/ng_bg.jpg) no-repeat center 16px;
+	height:596px;
+	}
+.loginpage_head{
+	height:82px;
+	background:url(/static/img/logon_head_bg.png) repeat-x ;
+	width:100%;
+	-webkit-box-shadow:0px 1px 3px #666;		
+	box-shadow:0px 1px 2px #666;
+	}
+.loginpage_head_center{
+	width:960px;
+	text-align:center;
+	margin:0 auto;
+	height:81px;
+	}
+.loginpage_head_center img{
+	margin:10px 0 0 0;
+	float:left;
+	}
+.loginpage_head_line{
+	background:url(/static/img/nb_line.png) no-repeat;
+	width:15px;
+	height:40px;
+	float:left;
+	margin:22px 0 0 21px;
+	}
+.loginpage_head_txt{
+	font-size:22px;
+	color:#666;
+	float:left;
+	height: 40px;
+	line-height:40px;
+	margin:22px 0 0 11px;
+	font-family:"microsoft yahei";
+	}
+.loginpage_head_icon,.loginpage_head_icon:link,.loginpage_head_icon:hover,.loginpage_head_icon:visited,.loginpage_head_icon:active{
+	background:url(/static/img/help_gray_icon.png) no-repeat 0 0;
+	float:right;
+	height:20px;
+	line-height:20px;
+	text-decoration:none;
+	padding:0 0 0 26px;
+	color:#999;
+	font-size:12px;
+	margin:37px 34px 0 0;
+	}
+.loginpage_center{
+	width:960px;
+	margin:0 auto;
+	text-align:center;
+	height:514px;
+	}	
+.loginpage_center_main{
+	float:right;
+	margin:128px 109px 0 0;
+	width:290px;
+	}	
+	
+.loginpage_center_text{
+	font-size:14px;
+	color:#666;
+	font-weight:bold;
+	width:100%;
+	line-height:20px;
+	height:20px;
+	float:left;
+	text-align:left;
+	}	
+.loginpage_center_row{
+	float:left;
+	width:100%;
+	height:28px;
+	line-height:28px;
+	margin:13px 0 0 0;
+	}
+.loginpage_center_font{
+	display:block;
+	float:left;
+	width:58px;
+	text-align:right;
+	color:#666;
+	font-size:14px;
+	}
+.loginpage_center_input{
+	float:left;
+	width:210px;
+	height:26px;
+	border:#999 solid 1px;
+	line-height:26px;
+	padding:0 3px;
+	font-size:14px;
+	color:#666;
+	}	
+.loginpage_center_inputs{
+	float:left;
+	width:58px;
+	height:26px;
+	border:#999 solid 1px;
+	line-height:26px;
+	padding:0 3px;
+	font-size:14px;
+	color:#666;
+	}
+.loginpage_center_test{
+	display:block;
+	width:76px;
+	height:26px;
+	border:#E5E5E5 solid 1px;
+	float:left;
+	margin:0 0 0 10px;
+	}	
+.loginpage_center_test img{
+	border:none;
+	}	
+.loginpage_test_font{
+	margin:0 0 0 15px;
+	float:left;
+	}	
+.loginpage_center_check{
+	float:left;
+	margin:8px 6px 8px 58px;
+	width:13px;
+	height:13px;
+	}	
+.loginpage_center_checkfont{
+	float:left;
+	color:#666;
+	font-size:12px;
+	}	
+.loginpage_center_chrow{
+	float:left;
+	width:100%;
+	height:28px;
+	line-height:28px;
+	margin:8px 0 0 0;
+	}
+.loginpage_center_btn{
+	float:left;
+	background:url(/static/img/logon_bg_btn.png) no-repeat;
+	color:#FFF;
+	font-size:12px;
+	margin:0 16px 0 52px;
+	width:66px;
+	height:28px;
+	cursor:pointer;
+	}		
+.loginpage_foot{
+	background:url(/static/img/login_foot_bg.png) repeat-x;
+	margin:7px auto;
+	text-align:left;
+	width:960px;
+	color:#666;
+	line-height:41px;
+	overflow:hidden;
+	clear:both;
+	}
+.loginpage_foot_font{
+	float:left;
+	height:22px;
+	line-height:22px;
+	margin:10px 0 0 0;
+	}
+.loginpage_foot_font img{
+	border:none;
+	float:left;
+	margin:0 12px 0 4px;
+	}
+/*----------------北外登录页 结束-------------------*/
+.mistake_notice{
+color: rgb(255, 0, 0);
+float: left;
+font-size: 12px;
+position: absolute;
+margin: 15px 0px 0px 68px;
+*margin: -2px 0px 0px -228px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
